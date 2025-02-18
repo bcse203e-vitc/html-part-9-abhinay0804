@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Booking Portal</title>
+      <link href="style.css" rel="stylesheet">
+      <style>
+            body{
+                  background:linear-gradient(to right, rgb(155, 83, 83),rgb(163, 163, 91),rgb(183, 252, 183));
+            }
+      </style>
+</head>
+<body>
+      <div id="x" style="text-align: center;">
+            <h1 style="text-align: center;">Booking Portal</h1>
+      <form>
+            <label for="name" style="margin-left: 58px;">Full Name &ensp;&ensp;&ensp;&ensp;&ensp;</label>
+            <input type="text" id="name"  required>
+            <br><br>
+            <label for="email" style="margin-left: 67px;">Email &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</label>
+            <input type="email" id="email"  required>
+            <br><br>
+            <label for="num" style="margin-left: 70px;">Phone Number &ensp;</label>
+            <input type="tel" id="num" required>
+            <br><br>
+            <p>Select Service</p>
+            <select id="service">
+                  <option value="0"></option>
+                  <option value="1">Doctor Consultation</option>
+                  <option value="2">Saloon Booking</option>
+                  <option value="3">Car Service</option>
+                  <option value="4">ETH Workshop</option>
+            </select>
+            <br><br>
+            <label style="margin-left:59px" for="dti">Preferred Date&Time</label>
+            <input type="datetime-local" id="dti" style="margin-left: 19px;" required onchange="validatedti()">
+            <br><br>
+            <input id="terms" type="checkbox" style="margin-left: -15px;" onchange="togsubmit()">
+            <label>I agree to the Terms and Conditions</label>
+            <br><br>
+            <button type="button" id="submit" disabled onclick="popup()">Submit</button>
+      </form>
+      </div>
+      <script src="ini.js"></script>
+</body>
+</html>

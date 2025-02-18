@@ -1,0 +1,78 @@
+.item{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      padding: 10px;  
+      margin-left: 150px;
+      margin-right: 90px;
+      margin-top: 50px;
+      width: 1000px;
+}
+a{
+      text-decoration: none;
+}
+.item1{
+      font-size: 20px;
+      font-weight: 600;
+      background-color: rgb(242, 245, 245);
+      flex: 1;
+      width: 10px;
+      padding: 15px;
+      margin-left: 10px;
+      border: 1px solid #ad6b6b;
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+}
+.item2{
+      font-size: 20px;
+      font-weight: 600;
+      background-color: rgb(242, 245, 245);
+      margin-top: 50px;
+      width: 920px;
+      padding: 15px;
+      margin-left: 170px;
+      border: 1px solid #ad6b6b;
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+}
+.p1{
+      align-content: center;
+      text-align: center;
+      justify-content: center;
+}
+button{
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+      border-radius: 90px;
+      margin-left: 90px;
+      background: rgb(207, 111, 75)
+}
+#bx{
+      margin-left: 400px;
+}
+input{
+      margin-inline-start: 50px;
+}
+form{
+      align-content: center;
+      justify-content: center;
+      text-align: center;
+      margin-top: 50px;
+}
+label,input,select{
+      margin-top: 20px;
+}
+#x{
+      font-size: 18px;
+      font-weight: 900px;
+      text-align: left;
+      margin-top: 10px;
+      margin-left: 10%;
+      margin-right: 10%;
+      width:80%;
+      padding:20px;
+}
+
